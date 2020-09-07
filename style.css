@@ -1,5 +1,6 @@
 body{
     font-family: arial,sans-serif;
+    font-size:13px;
 }
 nav{
     position: fixed;
@@ -48,10 +49,22 @@ li{
 #searchbox{
     width:25vw;
     align-self: center;
+    height: 5vh;
+    margin: 30px;
 }
 .search-crit-buttons
 {
     align-self: center;
+}
+#searchbutton, #feelinglucky{
+    border:none;
+    min-width: 54px;
+    height: 36px;
+    border-radius: 2px;
+    padding:10px;
+    margin: 10px;
+    text-align:center;
+    vertical-align: auto;
 }
 .offered-in
 {
@@ -78,7 +91,6 @@ li{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size:13px;
 }
 .nav-list li{
     margin: 10px 10px;
