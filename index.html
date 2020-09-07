@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
 
@@ -15,14 +16,14 @@
         <a><img src="https://lh3.googleusercontent.com/ogw/ADGmqu82kkF_RaI0vbTgjPTNkVI5JDtED8QBPpX7E6FB=s32-c-mo"
                 alt="Aditya's profile pic"></a>
     </nav>
-    <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div class="google-main">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" id="google-logo">
         <input type="text" name="searchbox" id="searchbox">
-        <div>
+        <div class="search-crit-buttons">
             <input type="button" name="searchbutton" id="searchbutton" value="Search">
             <input type="button" name="feelinglucky" id="feelinglucky" value="I am feeling lucky!">
         </div>
-        <div>
+        <div class="offered-in">
             <p>Google offered in:</p>
             <ul>
                 <li>हिन्दी</li>
@@ -32,23 +33,25 @@
                 <li>தமிழ்</li>
             </ul>
         </div>
-    </main>
+    </div>
     <footer>
         <p>India</p>
-        <div>
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>About</li>
-                <li>How search works</li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
+        <div class="external-links">
+            <div>
+                <ul>
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>About</li>
+                    <li>How search works</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

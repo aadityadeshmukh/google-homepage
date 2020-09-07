@@ -1,0 +1,58 @@
+nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+} 
+/* section{
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    padding: 25vh;
+} */
+.google-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-self:center;
+}
+#google-logo{
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.external-links{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+#searchbox{
+    width:25vw;
+    align-self: center;
+}
+.search-crit-buttons
+{
+    align-self: center;
+}
+.offered-in
+{
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+}
