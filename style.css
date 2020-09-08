@@ -127,3 +127,11 @@ li{
     opacity:0.55px;
     margin-right: -250px;
 }
+.languages li{
+    padding: 0 3px;
+    color:blue;
+}
+.languages{
+    margin: none;
+    padding-inline-start: 10px;
+}
